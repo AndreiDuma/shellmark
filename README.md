@@ -32,14 +32,10 @@ to remember a directory in an _anonymous bookmark_.
 
 #install it
 
-1. You drop [__go.sh__](http://github.com/AndreiDuma/shellmark/raw/master/go.sh) and
-[__mark.sh__](http://github.com/AndreiDuma/shellmark/raw/master/mark.sh) in a directory
+1. You drop [__shellmark.sh__](http://github.com/AndreiDuma/shellmark/raw/master/shellmark.sh) in a directory
 whose location you remember;
-2. Add these two lines to your .bashrc, .zshrc, whatever:
+2. Add this line to your .bashrc, .zshrc, whatever:
 
 ```bash
-alias mark="path/to/mark.sh"
-alias go=". path/to/go.sh"
+source path/to/shellmark.sh
 ```
-
-That's all.
