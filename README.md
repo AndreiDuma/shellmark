@@ -1,7 +1,7 @@
 shellmark
 =========
 
-_a dead simple bookmarking utility for shell_
+_a dead simple bookmarking utility for the shell_
 
 __shellmark__ is a very simple pair of scripts to help you browse your 
 most used directories without the hassle of writing aliases in your
