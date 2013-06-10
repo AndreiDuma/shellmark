@@ -8,24 +8,24 @@ most used directories without the hassle of writing aliases in your
 .bashrc / .zshrc.
 
 It works like this:
-```
-user current/directory$ mark name
+```bash
+$ mark name
 ```
 
 Then:
-```
-user some/other/dir$ go name
+```bash
+$ go name
 ```
 which changes your current dir to where you placed your mark.
 
 --
 You can also do:
-```
+```bash
 $ mark
 ```
 
 Then:
-```
+```bash
 $ go
 ```
 to remember a directory in an _anonymous bookmark_.
